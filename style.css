@@ -1,0 +1,160 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    background-color: #0d2b57;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1000px;
+    background-color: #fff;
+}
+
+.links-list {
+    display: flex;
+}
+
+.links-list li:first-child {
+    border-left: none;  
+}
+
+.links-list li {
+    border-left: 1px solid;
+}
+
+.search-bar,
+.search-nav {
+    display: flex;
+    background: #fff;
+    padding: 40px 30px;
+}
+
+.hellois,
+.login-btn {
+    width: 15%;
+    border: 1px solid #0d2b57;
+    border-radius: 4px;
+    color: #0d2b57;
+    font-size: 18px;
+    padding: 5px;
+    text-align: center;
+}
+
+.search-nav {
+    width: 70%;
+    border: 1px solid #666262;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.search-logo input {
+    border: none;
+    color: #0d2b57;
+    font-size: 14x  px;
+    font-weight: 500;
+}
+
+.links-list li a {
+    border: none;
+    background-color: #fff;
+    padding: 0 10px;
+    color: #0d2b57;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.links-list li a:hover {
+    text-decoration: underline;
+}
+
+.digital-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 40px;
+}
+
+.digital-text {
+    width: 68%;
+}
+
+.digital-text h4 {
+    color: #0d2b57;
+    font-size: 66px;
+    font-weight: 500;
+}
+
+.request-demo {
+    width: 32%;
+    padding-top: 140px;
+}
+
+.request-demo h4 {
+    color: #1658b9;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+
+.request-button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.request-button button {
+    background-color: #0d2b57;
+    width: 120px;
+    height: 45px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.request-button button:hover {
+    background-color: transparent;
+    color: #0d2b57;
+    border: 1px solid #0d2b57;
+}
+
+.request-button h4 {
+    color: #0d2b57;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.percentage-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.percentage-list li {
+    width: 24%;
+    padding: 30px 20px;
+}
+
+.percentage-list li h4 {
+    color: #0d2b57;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.percentage-list li p {
+    color: #1658b9;
+    font-size: 14px;
+    font-weight: 500;
+}
